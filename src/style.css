@@ -64,9 +64,9 @@ h2 {
 .homepage-paragraph {
   text-transform: uppercase;
   font-weight: bold;
-  display: block;
 }
-@media (max-width: 500px) {
+
+@media (max-width: 700px) {
   h1 {
     font-size: 48px;
   }
