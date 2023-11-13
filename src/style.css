@@ -2,7 +2,7 @@
   --heading-font-family: "Roboto", sans-serif;
   --button-font-family: "Montserrat";
 }
-
+/*Index page CSS*/
 h1,
 h2 {
   font-family: var(--heading-font-family);
@@ -53,6 +53,7 @@ h2 {
   font-size: 14px;
   font-weight: 700;
   color: white;
+  background-color: black;
   line-height: normal;
   text-transform: uppercase;
   border-color: white;
@@ -60,10 +61,52 @@ h2 {
   padding: 18px 30px;
   opacity: 0.7;
   cursor: pointer;
+  transition: ease-in-out;
 }
 .homepage-paragraph {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+/*About page CSS*/
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+  font-family: var(--heading-font-family);
+}
+.about-section h2 {
+  color: black;
+  font-family: var(--heading-font-family);
+}
+.about-section-content {
+  margin: 20px;
+}
+.btn-about {
+  font-family: var(--button-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-color: black;
+  border-radius: 50px;
+  padding: 18px 30px;
+}
+.btn-about:hover {
+  font-family: var(--button-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  line-height: normal;
+  text-transform: uppercase;
+  border-color: black;
+  border-radius: 50px;
+  padding: 18px 30px;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: ease-in-out;
 }
 
 @media (max-width: 700px) {
@@ -72,5 +115,9 @@ h2 {
   }
   p {
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
