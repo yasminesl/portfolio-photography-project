@@ -118,6 +118,15 @@ h2 {
 .country-heading {
   text-transform: uppercase;
 }
+/*Contact page CSS*/
+.links {
+  color: #f65282;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
 @media (max-width: 700px) {
   h1 {
     font-size: 48px;
