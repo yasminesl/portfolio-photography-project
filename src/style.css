@@ -18,6 +18,7 @@ h2 {
 }
 h3 {
   font-size: 18px;
+  text-transform: uppercase;
 }
 p {
   font-family: var(--heading-font-family);
