@@ -25,7 +25,7 @@ p {
   font-weight: 400;
 }
 .hero {
-  background-image: url(/images/eiffel-tower-early-night.jpg);
+  background-image: url(/images/view-financial-district-background.jpg);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -43,7 +43,42 @@ h2 {
   text-transform: uppercase;
   color: white;
 }
+.logo {
+  max-width: 350px;
+}
+.logo-small {
+  max-width: 150px;
+  max-height: 72px;
+  height: auto;
+  width: auto;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-family: var(--heading-font-family);
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
 
+nav a:hover,
+nav li.active a {
+  opacity: 0.5;
+  color: grey;
+}
 .btn-branding {
   font-family: var(--button-font-family);
   font-size: 14px;
@@ -68,7 +103,7 @@ h2 {
   padding: 18px 30px;
   opacity: 0.7;
   cursor: pointer;
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 .homepage-paragraph {
   text-transform: uppercase;
@@ -113,7 +148,7 @@ h2 {
   padding: 18px 30px;
   opacity: 0.7;
   cursor: pointer;
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 /*Work page CSS*/
 .country-heading {
@@ -124,7 +159,7 @@ h2 {
   color: #f65282;
 }
 
-a {
+p a {
   color: black;
   text-decoration: none;
 }
@@ -147,5 +182,8 @@ a {
     text-align: center;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
